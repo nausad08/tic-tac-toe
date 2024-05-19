@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './component/Card/Card'
-import Grid from './component/Grid/grid'
+import Grid from './component/Grid/Grid'
 
 function App() {
   const [count, setCount] = useState(0)
