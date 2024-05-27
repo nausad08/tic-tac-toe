@@ -28,6 +28,9 @@
     border: none;
     
 }
+.new{
+    margin: 20px;
+}
 .reset:hover {
     background-color:#002ead;
     transition: 0.7s;

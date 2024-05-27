@@ -35,10 +35,13 @@ function Grid({numberOfCards}){
                 winner && (
                     <>
                         <h1 className="turn-highlight">winner is {winner}</h1>
-                        <button className="reset" onClick={reset}> Reset Game</button>
+                        
                     </>
                 )
+                
             }
+            <button className="reset" onClick={reset}> Reset Game</button>
+
             <h1 className="turn-highlight">Current Turn : {(turn)? 'O': 'X'}</h1>
             <div className="grid">
                {board.map((el,idx)=> <Card gameEnd={winner ? true : false} key={idx} onPlay={play} player={el} index={idx}/>)}
